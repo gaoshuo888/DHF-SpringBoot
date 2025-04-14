@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * FileName: CrossOriginConfig.java
- * 类的详细说明
+ * 解决前后端跨域问题
  *
  * @author GaoShuo
  * @version 1.0.0

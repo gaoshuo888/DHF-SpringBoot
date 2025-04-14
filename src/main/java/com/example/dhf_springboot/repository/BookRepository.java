@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * FileName: BookRepository.java
- * 类的详细说明
+ * 图书数据访问层接口，数据库操作的接口
  *
  * @author GaoShuo
  * @version 1.0.0

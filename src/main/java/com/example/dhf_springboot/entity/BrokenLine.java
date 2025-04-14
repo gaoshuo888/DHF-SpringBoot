@@ -1,13 +1,10 @@
 package com.example.dhf_springboot.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 /**
  * FileName: Book2.java
- * 类的详细说明
+ * 折线图数据类
  *
  * @author GaoShuo
  * @version 1.0.0
@@ -17,6 +14,7 @@ import jakarta.persistence.Table;
 @Table(name = "brokenline") // 如果表名与类名相同，可以省略
 public class BrokenLine {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//主键自增，添加数据时自动生成，必需！！
     private Integer id;
     @Column(name = "x_axis")  // 显式指定数据库列名
     private String xData;//横坐标数据

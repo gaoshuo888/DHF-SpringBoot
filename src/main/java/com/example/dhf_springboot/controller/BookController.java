@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * FileName: BookController.java
- * 类的详细说明
+ * 负责处理图书数据的增删改查请求
  *
  * @author GaoShuo
  * @version 1.0.0

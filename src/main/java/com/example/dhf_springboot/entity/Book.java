@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * FileName: Book.java
- * 类的详细说明
+ * 图书类
  *
  * @author GaoShuo
  * @version 1.0.0
