@@ -2,6 +2,7 @@ package com.example.dhf_springboot.model;
 
 import com.example.dhf_springboot.vo.CalculatorForm;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * FileName: caculator.java
@@ -11,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @version 1.0.0
  * @Date 2025/4/14
  */
+@Component//这样就可以使用@Autowired注入
 public class Caculator {
 
 //    CalculatorForm calculatorForm;
