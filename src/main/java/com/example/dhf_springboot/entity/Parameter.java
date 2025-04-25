@@ -21,16 +21,15 @@ import lombok.Data;
 public class Parameter {
     @Id
     private Integer id;
-    @Column(name = "parameter_name")
-    private String parameterName;//默认驼峰转下划线
-    private String parameterValue;
+    private String E1;//默认驼峰转下划线
+    private String E2;
 
     @Override
     public String toString() {
         return "Book{" +
                 "id=" + id +
-                ", parameterName='" + parameterName + '\'' +
-                ", parameterValue='" + parameterValue + '\'' +
+                ", parameterName='" + E1 + '\'' +
+                ", parameterValue='" + E2 + '\'' +
                 '}';
     }
 
@@ -42,19 +41,19 @@ public class Parameter {
         this.id = id;
     }
 
-    public String getParameterName() {
-        return parameterName;
+    public String getE1() {
+        return E1;
     }
 
-    public void setParameterName(String parameterName) {
-        this.parameterName = parameterName;
+    public void setE1(String parameterName) {
+        this.E1 = parameterName;
     }
 
-    public String getParameterValue() {
-        return parameterValue;
+    public String getE2() {
+        return E2;
     }
 
-    public void setParameterValue(String parameterValue) {
-        this.parameterValue = parameterValue;
+    public void setE2(String parameterValue) {
+        this.E2 = parameterValue;
     }
 }
