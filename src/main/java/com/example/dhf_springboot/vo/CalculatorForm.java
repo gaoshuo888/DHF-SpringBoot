@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * FileName: Calculator.java
- * 前端传入的计算器表单
+ * 前端传入的计算器表单，接收前端传入的json数据
  *
  * @author GaoShuo
  * @version 1.0.0
@@ -12,8 +12,8 @@ import lombok.Data;
  */
 @Data
 public class CalculatorForm {
-    double num1;
-    double num2;
+    private double num1;
+    private double num2;
     String operator;
 
     double result;
