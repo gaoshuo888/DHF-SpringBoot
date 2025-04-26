@@ -1,5 +1,6 @@
 package com.example.dhf_springboot.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -20,8 +21,11 @@ import lombok.Data;
 @Table(name = "parameter")
 public class Parameter {
     @Id
+    @JsonProperty("id")//用于json序列化时的字段名
     private Integer id;
-    private double E1;//默认驼峰转下划线
+    @JsonProperty("E1")//用于json序列化时的字段名
+    private double E1;
+    @JsonProperty("E2")//用于json序列化时的字段名
     private double E2;
 
     @Override

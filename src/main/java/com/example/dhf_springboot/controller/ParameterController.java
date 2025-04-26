@@ -3,9 +3,7 @@ package com.example.dhf_springboot.controller;
 import com.example.dhf_springboot.entity.Parameter;
 import com.example.dhf_springboot.repository.ParameterRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,5 +23,10 @@ public class ParameterController {
     @GetMapping("/list")
     public List<Parameter> getAllParameters() {
         return parameterRepository.findAll();
+    }
+
+    @PostMapping("/add")
+    public Parameter addParameter(@RequestBody Parameter parameter) {
+        return parameterRepository.save(parameter);
     }
 }
