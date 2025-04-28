@@ -20,5 +20,5 @@ public class ParametersE {
     @Id
     private Integer id;
     private String name;
-    private double value;
+    private Double value;
 }
