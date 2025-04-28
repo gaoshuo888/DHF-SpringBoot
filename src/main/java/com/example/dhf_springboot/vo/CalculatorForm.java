@@ -12,8 +12,8 @@ import lombok.Data;
  */
 @Data
 public class CalculatorForm {
-    private double num1;
-    private double num2;
+    private Double num1;
+    private Double num2;
     String operator;
 
     double result;
