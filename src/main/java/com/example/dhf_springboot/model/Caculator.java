@@ -14,11 +14,7 @@ import org.springframework.stereotype.Component;
  */
 @Component//这样就可以使用@Autowired注入
 public class Caculator {
-
-//    CalculatorForm calculatorForm;
-
     public double calculate(CalculatorForm calculatorForm) {
-//        this.calculatorForm = calculatorForm;
         double result;
         double num1 = calculatorForm.getNum1();
         double num2 = calculatorForm.getNum2();
@@ -41,6 +37,5 @@ public class Caculator {
 
         return result;
     }
-
 
 }

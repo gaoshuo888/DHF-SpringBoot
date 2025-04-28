@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/calculator")
 public class CaculatorController {
     @Autowired
-    private Caculator caculator;
+    private Caculator calculator;
     @PostMapping("/calculate")
     public CalculatorForm calculate(@RequestBody CalculatorForm calculatorForm) {//requestBody接收前端传入的json数据
-        double result = caculator.calculate(calculatorForm);
+        double result = calculator.calculate(calculatorForm);
         calculatorForm.setResult(result);
 //        return result;//后端返回一个double值，responseBody
-        return calculatorForm;//后端返回一个对象
+        return calculatorForm;//后端返回一个对象resp到前端
     }
 }
