@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * FileName: ParametersRunOffController.java
- * 类的详细说明
+ * 用于处理与ParametersRunOff相关的请求
  *
  * @author GaoShuo
  * @version 1.0.0
