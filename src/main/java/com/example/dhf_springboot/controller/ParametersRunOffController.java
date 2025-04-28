@@ -26,7 +26,7 @@ public class ParametersRunOffController {
     }
     @PostMapping("/update")
     public List<ParametersRunOff> updateParameters(@RequestBody List<ParametersRunOff> parametersRunOffList) {
-        //@RequestBody注解用于将请求体中的JSON数据转换为Java对象
+        //@RequestBody注解用于将前端传来的JSON数据转换为Java对象
         return parametersRunOffRepository.saveAll(parametersRunOffList);
     }
 }
