@@ -40,8 +40,9 @@ class DhfSpringbootApplicationTests {
 	void saveQ() {//保存数据--可以添加，修改（ById）
 		BrokenLine brokenLine = new BrokenLine();
 //		brokenLine.setId(3);
-		brokenLine.setxData("星期on完全e");
-		brokenLine.setyData(100F);
+//		brokenLine.setxData("星期on完全e");
+		brokenLine.setXData("星期on完全e");//@Data注解,xData--> setXData
+		brokenLine.setYData(100F);
 		brokenLineRepository.save(brokenLine);
 		System.out.println(brokenLine);
 
