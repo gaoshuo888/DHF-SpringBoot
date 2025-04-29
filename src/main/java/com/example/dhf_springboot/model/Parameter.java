@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * FileName: Param.java
- * 用于封装参数
+ * 用于封装参数，对象创建后，自动实现数据库的参数加载
  *
  * @author GaoShuo
  * @version 1.0.0
