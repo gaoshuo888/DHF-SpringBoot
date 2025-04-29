@@ -1,11 +1,9 @@
 package com.example.dhf_springboot.repository;
 
-import com.example.dhf_springboot.entity.Book;
+import com.example.dhf_springboot.repository.isnotdhf.BookRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.List;
 
 /**
  * FileName: BookRepositoryTest.java

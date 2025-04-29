@@ -1,4 +1,4 @@
-package com.example.dhf_springboot.entity;
+package com.example.dhf_springboot.entity.isnotdhf;
 
 import jakarta.persistence.*;
 import lombok.Data;

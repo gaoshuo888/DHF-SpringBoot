@@ -1,9 +1,9 @@
 package com.example.dhf_springboot;
 
-import com.example.dhf_springboot.entity.Book;
-import com.example.dhf_springboot.entity.BrokenLine;
-import com.example.dhf_springboot.repository.BookRepository;
-import com.example.dhf_springboot.repository.BrokenLineRepository;
+import com.example.dhf_springboot.entity.isnotdhf.Book;
+import com.example.dhf_springboot.entity.isnotdhf.BrokenLine;
+import com.example.dhf_springboot.repository.isnotdhf.BookRepository;
+import com.example.dhf_springboot.repository.isnotdhf.BrokenLineRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

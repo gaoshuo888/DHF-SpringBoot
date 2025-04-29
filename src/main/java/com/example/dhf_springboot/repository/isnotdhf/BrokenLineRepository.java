@@ -1,6 +1,6 @@
-package com.example.dhf_springboot.repository;
+package com.example.dhf_springboot.repository.isnotdhf;
 
-import com.example.dhf_springboot.entity.BrokenLine;
+import com.example.dhf_springboot.entity.isnotdhf.BrokenLine;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

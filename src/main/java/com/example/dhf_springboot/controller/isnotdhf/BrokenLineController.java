@@ -1,8 +1,7 @@
-package com.example.dhf_springboot.controller;
+package com.example.dhf_springboot.controller.isnotdhf;
 
-import com.example.dhf_springboot.entity.Book;
-import com.example.dhf_springboot.entity.BrokenLine;
-import com.example.dhf_springboot.repository.BrokenLineRepository;
+import com.example.dhf_springboot.entity.isnotdhf.BrokenLine;
+import com.example.dhf_springboot.repository.isnotdhf.BrokenLineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

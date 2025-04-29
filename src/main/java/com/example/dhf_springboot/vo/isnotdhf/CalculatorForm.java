@@ -1,4 +1,4 @@
-package com.example.dhf_springboot.vo;
+package com.example.dhf_springboot.vo.isnotdhf;
 
 import lombok.Data;
 

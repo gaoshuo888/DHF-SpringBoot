@@ -1,4 +1,4 @@
-package com.example.dhf_springboot.entity;
+package com.example.dhf_springboot.entity.isnotdhf;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

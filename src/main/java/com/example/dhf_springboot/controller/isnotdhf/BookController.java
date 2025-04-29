@@ -1,15 +1,12 @@
-package com.example.dhf_springboot.controller;
+package com.example.dhf_springboot.controller.isnotdhf;
 
-import com.example.dhf_springboot.entity.Book;
-import com.example.dhf_springboot.repository.BookRepository;
+import com.example.dhf_springboot.entity.isnotdhf.Book;
+import com.example.dhf_springboot.repository.isnotdhf.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * FileName: BookController.java

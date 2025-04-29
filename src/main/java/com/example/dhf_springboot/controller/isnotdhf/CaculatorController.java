@@ -1,7 +1,7 @@
-package com.example.dhf_springboot.controller;
+package com.example.dhf_springboot.controller.isnotdhf;
 
-import com.example.dhf_springboot.model.Caculator;
-import com.example.dhf_springboot.vo.CalculatorForm;
+import com.example.dhf_springboot.model.isnotdhf.Caculator;
+import com.example.dhf_springboot.vo.isnotdhf.CalculatorForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

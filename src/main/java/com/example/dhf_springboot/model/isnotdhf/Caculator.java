@@ -1,7 +1,6 @@
-package com.example.dhf_springboot.model;
+package com.example.dhf_springboot.model.isnotdhf;
 
-import com.example.dhf_springboot.vo.CalculatorForm;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.dhf_springboot.vo.isnotdhf.CalculatorForm;
 import org.springframework.stereotype.Component;
 
 /**
