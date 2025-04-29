@@ -21,4 +21,6 @@ public class ParametersRunOff {
     private Integer id;
     private String name;
     private Double value;//Double类型,数值可以为null
+    private Double min;
+    private Double max;
 }

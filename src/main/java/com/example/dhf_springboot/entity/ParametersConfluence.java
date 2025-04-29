@@ -21,4 +21,6 @@ public class ParametersConfluence {
     private Integer id;
     private String name;
     private Double value;
+    private Double min;
+    private Double max;
 }

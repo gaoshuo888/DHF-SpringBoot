@@ -2,7 +2,6 @@ package com.example.dhf_springboot.controller;
 
 import com.example.dhf_springboot.entity.ParametersBasin;
 import com.example.dhf_springboot.repository.ParametersBasinRepository;
-import jakarta.persistence.Id;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
