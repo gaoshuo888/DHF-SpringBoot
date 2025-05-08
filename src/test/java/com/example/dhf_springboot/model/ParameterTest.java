@@ -1,5 +1,6 @@
 package com.example.dhf_springboot.model;
 
+import com.example.dhf_springboot.model.dhf_springboot.Parameter;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

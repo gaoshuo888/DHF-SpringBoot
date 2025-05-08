@@ -1,4 +1,4 @@
-package com.example.dhf_springboot.model;
+package com.example.dhf_springboot.model.dhf_springboot;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.jdbc.core.JdbcTemplate;

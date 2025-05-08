@@ -1,8 +1,7 @@
-package com.example.dhf_springboot.model;
+package com.example.dhf_springboot.model.dhf_springboot;
 
 import jakarta.annotation.PostConstruct;
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**

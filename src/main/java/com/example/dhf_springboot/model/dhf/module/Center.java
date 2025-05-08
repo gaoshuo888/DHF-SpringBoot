@@ -31,13 +31,16 @@ public class Center {           //主程序main入口
         WriteResultToExcel.setFilePath(excelFile);
         ExcelSummary.setInputFolderPath(excelFile);
 
+        /**前端可以通过一个下拉选项传递参数，
+         * （1）运行多次，存储到Excel中，
+         * （2）手动复制最优参数到Parameter0，输出对应结果
+         */
         int n = 0;//1.程序运行多次 2.将结果存储到Excel中 3.汇总结果
 //        n = 1;/**手动复制最优参数到Parameter0，输出对应结果*/
-
-        if (n == 0){
+        if (n == 0) {
             for (int i = 0; i < Test3.getTrails_sum(); i++) {//可以多次运行，并将结果存储到Excel中
                 //记录是第几次循环
-                Test3.setTrails(i+1);
+                Test3.setTrails(i + 1);
                 /** GA率定 */
                 AlgorithmDefineDomain algorithmDefineDomain = new AlgorithmDefineDomain();
                 algorithmDefineDomain.best();
@@ -50,7 +53,7 @@ public class Center {           //主程序main入口
                 WriteResultToExcel.writeResultToExcel();
                 ExcelSummary.excelSummary();
             }
-        }else{
+        } else {
             /** 原始输出 **/
             System.out.print("~~~~  原始输出  ~~~~~");//不断调整，将最优参数写入Parameter中，最后得到最优解
             Out out = new Out();
